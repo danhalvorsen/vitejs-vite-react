@@ -12,7 +12,7 @@
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "lib": [ "esnext", "DOM" ],
+    "lib": [ "esnext", "DOM", "WebWorker" ],
     "outDir": "dist"
   },
   "include": [ "src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx"]
