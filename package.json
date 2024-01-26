@@ -28,6 +28,7 @@
     "vite-plugin-comlink": "^4.0.2",
     "vite-plugin-pwa": "^0.17.5",
     "workbox-window": "7.0.0",
-    "workbox-precaching": "7.0.0"
+    "workbox-precaching": "7.0.0",
+    "workbox-core": "7.0.0"
   }
 }
