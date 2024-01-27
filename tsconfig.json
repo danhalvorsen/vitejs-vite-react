@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"types": [
+
+			"vite-plugin-pwa/react" //https://vite-pwa-org.netlify.app/frameworks/#type-declarations
+		],
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"declaration": true,
+		"strict": true,
+		"jsx": "preserve",
+		"sourceMap": true,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"lib": [ "esnext", "DOM", "WebWorker" ],
+		"outDir": "dist"
+	},
+	"include": [ "src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx" ]
+}
